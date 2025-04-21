@@ -60,3 +60,38 @@ if (uno ===dos){
     console.log("asdasdas")
 }
 
+let tipoAlumno = "diurno";
+
+switch(tipoAlumno){
+    case "diurno":
+        console.log("dia breooo")
+            break;
+    case "vespertino":
+        console.log("noche breoo")
+            break;
+    default:
+        console.log("no es alumno")
+}
+
+//ciclos
+
+// muestre los 10 priemros numeros positivos 
+//while
+let i =0;
+while ( i < 10){
+    console.log(i)
+    i++;
+}
+
+
+//for
+let nom =["ana","maria","jesus"]
+
+for (let w=0; w<nom.length;w++){
+    console.log(nom[w])
+}
+
+for (let x in nom){
+    console.log(nom[x])
+
+}
